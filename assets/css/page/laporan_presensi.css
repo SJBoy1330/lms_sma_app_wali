@@ -1,0 +1,53 @@
+.tab-wali {
+    color: #303030;
+}
+
+.tab-wali button {
+    background-color: inherit;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: #303030;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #EC3528;
+    font-weight: 600;
+}
+
+.tab-wali button.active {
+    border-bottom: 5px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.tabcontent-wali {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.tablinknya-tugas-ujian {
+    position: absolute;
+    width: 100vw;
+    background-color: #EC3528;
+}
+
+.card .card-laporan-presensi {
+    min-height: 100px;
+}
+
+.jam-laporan-presensi {
+    width: 55px;
+    height: 26px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00dfa3;
+}

@@ -1,0 +1,88 @@
+.file {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .file > input[type='file'] {
+    display: none
+  }
+
+  .file > label {
+    cursor: pointer;
+    width: 100%;
+    outline: 0;
+    user-select: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EC3528;
+    border-radius: 8px;
+    color: #FFFFFF;
+    height: 45px;
+    padding-top: 10px;
+  }
+
+
+  .file-edit {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .file-edit > input[type='file'] {
+    display: none
+  }
+
+  .file-edit > label {
+    cursor: pointer;
+    width: 80%;
+    outline: 0;
+    user-select: none;
+    color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFBD17;
+    border-color: #FFBD17;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 13px;
+    height: 40px;
+    text-transform: none;
+  }
+
+  .sizing-info{
+    width: 50%;
+  }
+
+  button.btn.btn-edit-pembayaran{
+    width: 100%;
+    background-color: #EC3528;
+    border-radius: 8px;
+    line-height: 1px;
+    font-size: 15px;
+    color: #303030;
+    height: 45px;
+    padding-top: 10px;
+    padding-bottom: 8px !important;
+  }
+
+  button.btn.btn-detail-tagihan{
+    width: 100%;
+    background-color: #fdb500;
+    border-radius: 8px;
+    line-height: 1px;
+    font-size: 15px;
+    color: #303030;
+    height: 45px;
+    padding-top: 10px;
+    padding-bottom: 8px !important;
+  }
+
+  .bg-ffbd17{
+    background-color: #FFBD17;
+  }

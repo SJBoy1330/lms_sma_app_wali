@@ -1,0 +1,87 @@
+input[type="file"] {
+    display: block;
+}
+
+.wrapper-files{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+    position: absolute;
+    height: 50px;
+    width: 111px;
+    top: 145px !important;
+    border-radius: 10px 0px 0px 10px;
+}
+
+button.btn.btn-filter {
+  width: 100%;
+  background-color: #EC3528;
+  border-radius: 8px;
+  color: #FFFFFF;
+  height: 45px;
+  padding-top: 10px;
+}
+
+button.btn.btn-simpan {
+  width: 100%;
+  background-color: #EC3528;
+  border-radius: 8px;
+  color: #FFFFFF;
+  height: 45px;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+button.btn.btn-batal {
+  width: 100%;
+  background-color: #F8EAE9;
+  border-radius: 8px;
+  border: none;
+  color: #EC3528;
+  height: 45px;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+button.btn.btn-surat {
+  width: 100%;
+  border: none !important;
+  background-color: #ffd36a;
+  border-radius: 8px;
+  color: #986c00;
+  font-weight: 600;
+  height: 45px;
+  padding-top: 10px;
+}
+
+button.btn.btn-hps-surat {
+  width: 100%;
+  background-color: #EC3528;
+  border-radius: 8px;
+  border: none;
+  color: #F8EAE9;
+  height: 45px;
+  font-weight: 600;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+button.btn.btn-surat:hover{
+  background-color: #fdb500;
+  color: #303030;
+}
+
+.button-action{
+  top: 12px;
+  right: 15px;
+}
+
+.bg-button {
+  background-color: #E5E5E5;
+  border: none;
+}
+
+.sizing-info{
+  width: 50%;
+}
